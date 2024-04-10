@@ -49,13 +49,15 @@ body{
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .banner-cadastro{
     display: flex;
     justify-content: center;
-    width: 300px;
-    background-color: #FFFFFF;
+    width: 350px;
+    background-color: #F5EEE6;
     padding: 25px;
     color: black;
 
@@ -72,9 +74,12 @@ body{
 
 
 input{
-    border-radius: 15px;
-    width: 50%;
-    height: 5vh;
+    border-radius: 10px;
+    width: 90%;
+    height: 4vh;
+    text-align: center;
+    border: 3px solid #5BBCFF;
+    margin-bottom: 10px;
 }
 
 
@@ -127,13 +132,19 @@ input{
     text-align: center;
 }
 
+.banner-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px
+}
+
 button{
     width: 100px;
     color: white;
     background-color: #D20062;
-}
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
 
-.banner-botao{
-    margin-top: 20px
 }
-
